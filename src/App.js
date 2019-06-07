@@ -33,7 +33,7 @@ class App extends React.Component {
         city: data.name,
         country: data.sys.country,
         humidity: data.main.humidity,
-        description: data.Weather[0].description,
+        description: data.weather[0].description,
         error: ""
       });
     } else {
